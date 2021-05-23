@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> color palete</title>
+    <style type="text/css">
+
+    h1{
+      font-size:30px;
+      text-decoration: underline;
+      text-align:center;
+      color:black;
+    }
+    body{
+      font-size: 50px;
+      font-family: monospace;
+       }
+    button
+    {
+      border-radius: 40px;
+    }
+    </style>
+  </head>
+
+  <body id="clr">
+
+    <h1> select any color from below,to change background color </h1> 
+
+    <br>
+
+    <button onclick="color1()" title="red";> red </button> <br>
+    <button onclick="color2()" title="orange like color";> coral </button> <br>
+    <button onclick="color3()" title="green";> green </button> <br>
+    <button onclick="color4()" title="purple";> purple </button> <br>
+    <button onclick="color5()" title="yellow";> yellow </button> <br>
+    <button onclick="color6()" title="original background";> original background </button> <br>
+
+     <script>
+
+      function color1()
+      {
+      document.getElementById("clr").style.backgroundColor="red";
+      }
+
+      function color2()
+      {
+      document.getElementById("clr").style.backgroundColor="coral";
+      }
+
+      function color3()
+      {
+      document.getElementById("clr").style.backgroundColor="green";
+      }
+
+      function color4()
+      {
+      document.getElementById("clr").style.backgroundColor="purple";
+      }
+
+      function color5()
+      {
+      document.getElementById("clr").style.backgroundColor="yellow";
+      }
+
+      function color6()
+      {
+      document.getElementById("clr").style.backgroundColor="white";
+      }
+
+
+    </script>
+  </body>
+</html>
